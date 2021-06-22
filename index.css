@@ -101,5 +101,6 @@ body {
   img {
     height: 225px;
     width: 225px;
+    border: #000000 solid 1px;
   }
   
