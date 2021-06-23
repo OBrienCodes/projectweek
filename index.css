@@ -2,7 +2,9 @@ body {
     margin: 0;
     font-size: 18px;
     font-family: monospace;
-    background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg)
+    /* background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg) */
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99dcad81-130a-49a9-b29b-2d4ef2104875/d1w0gu5-a79d7e30-9011-431a-80ed-c595a6db2222.jpg/v1/fill/w_750,h_1066,q_70,strp/old_scroll_texture_iii_by_esther_sanz_d1w0gu5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzk5ZGNhZDgxLTEzMGEtNDlhOS1iMjliLTJkNGVmMjEwNDg3NVwvZDF3MGd1NS1hNzlkN2UzMC05MDExLTQzMWEtODBlZC1jNTk1YTZkYjIyMjIuanBnIiwid2lkdGgiOiI8PTIxMTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nfXoG2rHhnoywINm7zqImkodC5XbLHd_8q5EVvhYuRk);
+
   }
   
   #character-header {
@@ -11,23 +13,37 @@ body {
     background-image: radial-gradient(beige, black);
     height: 11rem;
     padding: 1rem;
+    text-align: justify;
+    width: auto;
   }
 
   p {
     text-align: center;
     margin: 0;
     background-image: radial-gradient(beige, black);
+    font-size:xx-large
   }
   
   #character-header img {
     height: 10rem;
     width: auto;
+    display: block;
+    align-items: center;
   }
 
+
   .add-character-form {
-      text-align: center;
-      background-image: radial-gradient(beige, black);
-      background-color: radial-gradient(beige,black);
+    margin: 0;
+    margin-left: 9pc;
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* background-image: radial-gradient(beige, black);
+    background-color: radial-gradient(beige,black); */
+    /* background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg) */
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99dcad81-130a-49a9-b29b-2d4ef2104875/d1w0gu5-a79d7e30-9011-431a-80ed-c595a6db2222.jpg/v1/fill/w_750,h_1066,q_70,strp/old_scroll_texture_iii_by_esther_sanz_d1w0gu5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzk5ZGNhZDgxLTEzMGEtNDlhOS1iMjliLTJkNGVmMjEwNDg3NVwvZDF3MGd1NS1hNzlkN2UzMC05MDExLTQzMWEtODBlZC1jNTk1YTZkYjIyMjIuanBnIiwid2lkdGgiOiI8PTIxMTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nfXoG2rHhnoywINm7zqImkodC5XbLHd_8q5EVvhYuRk);
+
+
   }
   
   #character-collection {
@@ -54,6 +70,10 @@ body {
   }
   
   button {
+         display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    text-align: center;
     position: relative;
     background-color: #000000;
     border: none;
@@ -63,7 +83,11 @@ body {
     color: whitesmoke;
     font-size: 18px;
     justify-self: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
+
   
   button:hover {
     background-image: url(https://www.cryptovibes.com/wp-content/uploads/2021/04/BNB-burning.jpg);
