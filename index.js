@@ -45,3 +45,20 @@ const renderCharacters = (character) => {
     characterCollection.append(characterCard)
 }
 
+let addCharacter = false
+
+document.addEventListener('DOMContentLoaded', () => {
+    const addCharacterForm = document.querySelector(".add-character-form")
+    addCharacterForm.style.display = "none"
+
+    const createCharacterButton = document.querySelector("#new-character-btn")
+    createCharacterButton.addEventListener('click', () => {
+        addCharacter = !addCharacter
+        if(addCharacter) {
+            addCharacterForm.style.display = "block"
+        } else {
+            addCharacterForm.style.display = "none"
+        }
+    })
+})
+

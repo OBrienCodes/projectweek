@@ -7,18 +7,29 @@ body {
   #character-header {
     display: flex;
     justify-content: center;
-    background: #000000;
+    background-image: radial-gradient(beige, black);
     height: 11rem;
     padding: 1rem;
+  }
+
+  p {
+    margin: 0;
+    background-image: radial-gradient(beige, black);
   }
   
   #character-header img {
     height: 10rem;
     width: auto;
   }
+
+  .add-character-form {
+      text-align: center;
+      background-image: radial-gradient(beige, black);
+  }
   
   #character-collection {
-    margin: 2rem;
+    /* margin: 2rem; */
+    background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg)
   }
   
   .card {
@@ -29,7 +40,8 @@ body {
     height: 35rem;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #353333
+    box-shadow: 3px 4px #353333;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99dcad81-130a-49a9-b29b-2d4ef2104875/d1w0gu5-a79d7e30-9011-431a-80ed-c595a6db2222.jpg/v1/fill/w_750,h_1066,q_70,strp/old_scroll_texture_iii_by_esther_sanz_d1w0gu5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzk5ZGNhZDgxLTEzMGEtNDlhOS1iMjliLTJkNGVmMjEwNDg3NVwvZDF3MGd1NS1hNzlkN2UzMC05MDExLTQzMWEtODBlZC1jNTk1YTZkYjIyMjIuanBnIiwid2lkdGgiOiI8PTIxMTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nfXoG2rHhnoywINm7zqImkodC5XbLHd_8q5EVvhYuRk);
   }
   
   .character-avatar {
@@ -51,9 +63,9 @@ body {
   }
   
   button:hover {
-    background-color: whitesmoke;
+    background-image: url(https://www.cryptovibes.com/wp-content/uploads/2021/04/BNB-burning.jpg);
     border: #1d1b1b solid 1px;
-    color: #3d3939;
+    color: #fffbfb;
   }
   
   .container {
@@ -71,7 +83,7 @@ body {
   
   .submit {
     position: relative;
-    background-color: #e04b52;
+    background-color: #000000;
     border-radius: 5px;
     height: 2rem;
     width: max-content;
@@ -83,9 +95,9 @@ body {
   }
   
   .submit:hover {
-    background-color: whitesmoke;
-    border: #e04b52 solid 1px;
-    color: #e04b52;
+    background-image: url(https://www.cryptovibes.com/wp-content/uploads/2021/04/BNB-burning.jpg);
+    border: #313131 solid 1px;
+    color: #ffffff;
   }
   
   
