@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-family: monospace;
+    background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg)
   }
   
   #character-header {
@@ -13,6 +14,7 @@ body {
   }
 
   p {
+    text-align: center;
     margin: 0;
     background-image: radial-gradient(beige, black);
   }
@@ -25,6 +27,7 @@ body {
   .add-character-form {
       text-align: center;
       background-image: radial-gradient(beige, black);
+      background-color: radial-gradient(beige,black);
   }
   
   #character-collection {

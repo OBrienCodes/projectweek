@@ -61,5 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
             addCharacterForm.style.display = "none"
         }
     })
+
+    const enter7KingdomsBtn = document.querySelector(".add-character-form")
+    enter7KingdomsBtn.addEventListener("submit", (e) => {
+        const themeMusic = document.getElementById("intro")
+        e.preventDefault()
+        themeMusic.pause()    
+})
 })
 
