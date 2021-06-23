@@ -1,10 +1,6 @@
 // Our code here
 
 const headerPic = document.getElementById("headerPic")
-headerPic.addEventListener('click', () => {
-    const themeMusic = document.getElementById("intro")
-    themeMusic.play()
-})
 
 fetch(`https://thronesapi.com/api/v2/Characters`)
 .then(res => res.json())
@@ -52,6 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
     addCharacterForm.style.display = "none"
 
     const createCharacterButton = document.querySelector("#new-character-btn")
+    
+    createCharacterButton.addEventListener('click', () => {
+        const themeMusic = document.getElementById("intro")
+        themeMusic.play()
+    })
     createCharacterButton.addEventListener('click', () => {
         addCharacter = !addCharacter
         if(addCharacter) {
