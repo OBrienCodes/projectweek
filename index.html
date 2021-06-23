@@ -12,6 +12,7 @@
         alt="character-header" id="headerPic"
       />
     </div>
+    
 
     <div class="container">
       <form class="add-character-form">
@@ -43,9 +44,19 @@
           class="submit"
         />
       </form>
+
     </div>
     <p style="text-align:center">
       The Seven Kingdoms Needs You! <button id="new-character-btn">Create Your Character!</button>
+      <form class="add-character-form" style="text-align:center">
+        <h3>Create Your Character!</h3>
+
+        <input type="text" name="name" value="" placeholder="Enter Your Character Name!" class="input-text">
+        <br>
+        <input type="text" name="image" value="" placeholder="Enter Your Image URL" class="input-text">
+        <br>
+        <input type="submit" name="submit" value="Enter the Seven Kingdoms!" class="submit">
+      </form>
     </p>
 
     <div id="character-collection"></div>
