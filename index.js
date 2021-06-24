@@ -33,8 +33,6 @@ const renderCharacters = (character) => {
     
     winter.classList.add("winter")
 
-    // const likeButton = document.createElement('h1')
-    // likeButton.innerText = dragon
     winter.addEventListener('click', () => {
         if(winter.src === (`https://freepngimg.com/thumb/artwork/81087-art-winter-symmetry-house-is-stark-coming-thumb.png`)){
             winter.src = `https://acegif.com/wp-content/gifs/fire-65.gif`
@@ -72,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeMusic = document.getElementById("intro")
         e.preventDefault()
         themeMusic.pause()
-        const winter = document.getElementById("winter")
+        const winter = document.getElementById("winter-is-coming")
         winter.play()  
 })
 })
