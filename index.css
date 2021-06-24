@@ -98,7 +98,7 @@ h3 {
     background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg);
     border: none;
     border-radius: 5px;
-    height: 3rem;
+    height: 3.5rem;
     width: max-content;
     color: whitesmoke;
     font-size: 28px;
@@ -111,9 +111,11 @@ h3 {
 
   
   button:hover {
-    background-image: url(https://www.cryptovibes.com/wp-content/uploads/2021/04/BNB-burning.jpg);
+    background-image: url(https://i.pinimg.com/originals/e4/44/2d/e4442dc28d46d5757f2310578a8613fa.gif);
     border: #1d1b1b solid 1px;
-    color: #fffbfb;
+    color: #000000;
+    background-position: center;
+    background-position: top;
   }
   
   .container {
@@ -134,7 +136,7 @@ h3 {
     position: relative;
     background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg);
     border-radius: 5px;
-    height: 3rem;
+    height: 3.5rem;
     width: max-content;
     color: whitesmoke;
     font-size: 28px;
@@ -145,9 +147,10 @@ h3 {
   }
   
   .submit:hover {
-    background-image: url(https://www.cryptovibes.com/wp-content/uploads/2021/04/BNB-burning.jpg);
+    background-image: url(https://i.pinimg.com/originals/e4/44/2d/e4442dc28d46d5757f2310578a8613fa.gif);
     border: #313131 solid 1px;
-    color: #ffffff;
+    color: #000000;
+    background-position: center;
   }
   
   
