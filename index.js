@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then((newCharacter) => {
             renderCharacters(newCharacter)
         })
-
+        enter7KingdomsBtn.reset()
     })
 })
 

@@ -183,3 +183,10 @@ h3 {
     text-align: center;
     margin-left: 2pc;
   }
+  ::placeholder {
+    font-family: fantasy;
+  }
+  input[type="text"]
+{
+    font-family: fantasy;
+}
