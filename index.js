@@ -86,8 +86,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 "title": e.target.title.value
             })
         })
+        .then(res => res.json())
+        .then((newCharacter) => {
+            renderCharacters(newCharacter)
+        })
 
-})
+    })
 })
 
 
