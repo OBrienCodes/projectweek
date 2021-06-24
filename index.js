@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             addCharacterForm.style.display = "none"
         }
-        
+
         fetch(`http://localhost:3000/characters`, {
             method: 'POST',
             headers: {
@@ -100,6 +100,3 @@ document.addEventListener('DOMContentLoaded', () => {
         enter7KingdomsBtn.reset()
     })
 })
-
-
-
