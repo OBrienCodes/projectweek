@@ -1,27 +1,33 @@
+
+
 body {
     margin: 0;
     font-size: 18px;
-    font-family: monospace;
+    font-family: fantasy;
+    font-weight: bolder;
     /* background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg) */
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99dcad81-130a-49a9-b29b-2d4ef2104875/d1w0gu5-a79d7e30-9011-431a-80ed-c595a6db2222.jpg/v1/fill/w_750,h_1066,q_70,strp/old_scroll_texture_iii_by_esther_sanz_d1w0gu5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzk5ZGNhZDgxLTEzMGEtNDlhOS1iMjliLTJkNGVmMjEwNDg3NVwvZDF3MGd1NS1hNzlkN2UzMC05MDExLTQzMWEtODBlZC1jNTk1YTZkYjIyMjIuanBnIiwid2lkdGgiOiI8PTIxMTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nfXoG2rHhnoywINm7zqImkodC5XbLHd_8q5EVvhYuRk);
-
   }
   
   #character-header {
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(beige, black);
+    /* background-image: radial-gradient(beige, black); */
+    background-image: url(https://media1.popsugar-assets.com/files/thumbor/RULArzi8uqr7dtQN78pzJIG1MBc/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/04/08/960/n/1922507/c39129f5495d5fb5_game_of_thrones/i/Game-Thrones-Zoom-Background.jpg);
+    background-position: center;
+    background-position: bottom;
     height: 11rem;
     padding: 1rem;
     text-align: justify;
     width: auto;
+    
   }
 
   p {
     text-align: center;
     margin: 0;
     background-image: radial-gradient(beige, black);
-    font-size:xx-large
+    font-size:xx-large;
   }
   
   #character-header img {
@@ -29,6 +35,8 @@ body {
     width: auto;
     display: block;
     align-items: center;
+    opacity: 80%;
+    
   }
 
 
@@ -61,7 +69,14 @@ body {
     margin: 1rem 2rem;
     box-shadow: 3px 4px #353333;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99dcad81-130a-49a9-b29b-2d4ef2104875/d1w0gu5-a79d7e30-9011-431a-80ed-c595a6db2222.jpg/v1/fill/w_750,h_1066,q_70,strp/old_scroll_texture_iii_by_esther_sanz_d1w0gu5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzk5ZGNhZDgxLTEzMGEtNDlhOS1iMjliLTJkNGVmMjEwNDg3NVwvZDF3MGd1NS1hNzlkN2UzMC05MDExLTQzMWEtODBlZC1jNTk1YTZkYjIyMjIuanBnIiwid2lkdGgiOiI8PTIxMTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nfXoG2rHhnoywINm7zqImkodC5XbLHd_8q5EVvhYuRk);
-  }
+    
+}
+
+
+h3 {
+    color: black;
+    margin: 0pc;
+}
   
   .character-avatar {
     justify-self: center;
@@ -75,17 +90,18 @@ body {
     margin:0 auto; /* this will center  it */
     text-align: center;
     position: relative;
-    background-color: #000000;
+    background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg);
     border: none;
     border-radius: 5px;
     height: 3rem;
     width: max-content;
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 28px;
     justify-self: center;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family: fantasy;
   }
 
   
@@ -105,19 +121,20 @@ body {
   }
   
   .add-character-form {
-    width: 80%
+    width: 80%;
+    font-family: fantasy;
   }
   
   .submit {
     position: relative;
-    background-color: #000000;
+    background-image: url(https://blog.zoombackground.io/media/posts/3/game-of-thrones-zoom-background-cover.jpg);
     border-radius: 5px;
-    height: 2rem;
+    height: 3rem;
     width: max-content;
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 28px;
     justify-self: center;
-    font-family: monospace;
+    font-family: fantasy;
     margin: 3px;
     margin-top: 15px;
   }
@@ -146,4 +163,13 @@ body {
 
   #intro { display: none }
 
-  
+  .winter {
+    height: 175px;
+    width: 175px;
+    margin-top: 0pc;
+    margin-bottom: 0%;
+    align-items: center;
+    border: none;
+    text-align: center;
+    margin-left: 2pc;
+  }

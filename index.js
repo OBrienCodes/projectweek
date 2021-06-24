@@ -25,19 +25,21 @@ const renderCharacters = (character) => {
     const characterTitle = document.createElement('h3')
     characterTitle.innerText = character.title
 
-    const dragon = '🐉'
-    const swords = '⚔️'
+    const winter = document.createElement('img')
+    winter.src = `https://freepngimg.com/thumb/artwork/81087-art-winter-symmetry-house-is-stark-coming-thumb.png`
+    
+    winter.classList.add("winter")
 
-    const likeButton = document.createElement('h1')
-    likeButton.innerText = dragon
-    likeButton.addEventListener('click', () => {
-        if(likeButton.innerText === dragon){
-            likeButton.innerText = swords
+    // const likeButton = document.createElement('h1')
+    // likeButton.innerText = dragon
+    winter.addEventListener('click', () => {
+        if(winter.src === (`https://freepngimg.com/thumb/artwork/81087-art-winter-symmetry-house-is-stark-coming-thumb.png`)){
+            winter.src = `https://acegif.com/wp-content/gifs/fire-65.gif`
         }
-        else {likeButton.innerText = dragon}
+        else {winter.src = (`https://freepngimg.com/thumb/artwork/81087-art-winter-symmetry-house-is-stark-coming-thumb.png`)}
     })
 
-    characterCard.append(characterName,characterImage, characterHouse, characterTitle, likeButton)
+    characterCard.append(characterName,characterImage, characterHouse, characterTitle, winter)
     characterCollection.append(characterCard)
 }
 
@@ -66,7 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
     enter7KingdomsBtn.addEventListener("submit", (e) => {
         const themeMusic = document.getElementById("intro")
         e.preventDefault()
-        themeMusic.pause()    
+        themeMusic.pause()
+        const winter = document.getElementById("winter")
+        winter.play()  
 })
 })
 
