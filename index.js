@@ -72,6 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
         themeMusic.pause()
         const winter = document.getElementById("winter-is-coming")
         winter.play()
+
+        addCharacter = !addCharacter
+        if(addCharacter) {
+            addCharacterForm.style.display = "block"
+        } else {
+            addCharacterForm.style.display = "none"
+        }
         
         fetch(`http://localhost:3000/characters`, {
             method: 'POST',
