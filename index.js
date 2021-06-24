@@ -2,7 +2,7 @@
 
 const headerPic = document.getElementById("headerPic")
 
-fetch(`https://thronesapi.com/api/v2/Characters`)
+fetch(`http://localhost:3000/characters`)
 .then(res => res.json())
 .then(characters => characters.forEach(renderCharacters))
 
@@ -17,7 +17,7 @@ const renderCharacters = (character) => {
     characterName.innerText = character.fullName
     
     const characterImage = document.createElement('img')
-    characterImage.src = character.imageUrl
+    characterImage.src = character.imageURL
 
     const characterHouse = document.createElement('p')
     characterHouse.innerText = character.family
