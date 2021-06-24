@@ -26,8 +26,13 @@ body {
   p {
     text-align: center;
     margin: 0;
-    background-image: radial-gradient(beige, black);
-    font-size:xx-large;
+    font-size: larger;
+    line-height: 2pc;
+  }
+
+  h2 {
+      margin-top: 0pc;
+      margin-bottom: 0pc;
   }
   
   #character-header img {
@@ -64,7 +69,7 @@ body {
     border: grey solid 1px;
     padding: 1rem;
     width: 15rem;
-    height: 35rem;
+    height: 40rem;
     display: inline-grid;
     margin: 1rem 2rem;
     box-shadow: 3px 4px #353333;
@@ -159,6 +164,8 @@ h3 {
     height: 225px;
     width: 225px;
     border: #000000 solid 1px;
+    margin-top: 0pc;
+    margin-bottom: 1pc;
   }
 
   #intro { display: none }
@@ -167,7 +174,7 @@ h3 {
     height: 175px;
     width: 175px;
     margin-top: 0pc;
-    margin-bottom: 0%;
+    margin-bottom: 0pc;
     align-items: center;
     border: none;
     text-align: center;

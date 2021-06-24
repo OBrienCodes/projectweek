@@ -19,10 +19,13 @@ const renderCharacters = (character) => {
     const characterImage = document.createElement('img')
     characterImage.src = character.imageUrl
 
-    const characterHouse = document.createElement('h3')
+    const characterHouse = document.createElement('p')
     characterHouse.innerText = character.family
 
-    const characterTitle = document.createElement('h3')
+    const line = document.createElement('p')
+    line.innerText = "▬▬ι═══════>"
+
+    const characterTitle = document.createElement('p')
     characterTitle.innerText = character.title
 
     const winter = document.createElement('img')
@@ -39,7 +42,7 @@ const renderCharacters = (character) => {
         else {winter.src = (`https://freepngimg.com/thumb/artwork/81087-art-winter-symmetry-house-is-stark-coming-thumb.png`)}
     })
 
-    characterCard.append(characterName,characterImage, characterHouse, characterTitle, winter)
+    characterCard.append(characterName, characterImage, characterHouse, line, characterTitle, winter)
     characterCollection.append(characterCard)
 }
 
