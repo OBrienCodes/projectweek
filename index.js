@@ -71,7 +71,24 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault()
         themeMusic.pause()
         const winter = document.getElementById("winter-is-coming")
-        winter.play()  
+        winter.play()
+        
+        fetch(`http://localhost:3000/characters`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: "application/json"
+            },
+            body: JSON.stringify({
+                "fullName": e.target.name.value,
+                "imageURL": e.target.image.value,
+                "family": e.target.house.value,
+                "title": e.target.title.value
+            })
+        })
+
 })
 })
+
+
 
