@@ -1,6 +1,19 @@
 # projectweek
 Our first project week; goals are to use an external API to build a basic website with fetch requests and event listeners.
 
+
+
+
+Take a dive into the fantasy world of Game of Thrones!
+
+Create your own Character and join the Seven Kingdoms as the Hero of your choice!
+
+The characters you create will be in the open world RPG game so be careful who you create, you just might face them on the battlefield!
+
+
+
+
+
 Learning Goals
 Design and architect features across a frontend
 Communicate and collaborate in a technical environment

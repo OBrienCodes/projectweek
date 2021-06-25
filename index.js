@@ -7,7 +7,6 @@ fetch(`http://localhost:3000/characters`)
 .then(characters => characters.forEach(renderCharacters))
 
 const renderCharacters = (character) => {
-    // console.log(character)
     const characterCollection = document.querySelector("#character-collection")
 
     const characterCard = document.createElement('div')
